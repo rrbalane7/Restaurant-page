@@ -7,7 +7,7 @@ function createHome(){
     const brandLogo = document.createElement("img");
     const brandName = document.createElement("h1");
     brandName.textContent = "FANCY RAM SANDWICHES";
-    brandLogo.src = "/media/sandwich-svgrepo-com.svg";
+    brandLogo.src = "sandwich-svgrepo-com.svg";
     brandLogo.alt = "brand-logo";
     brandLogo.setAttribute("draggable","false")
     brandCont.appendChild(brandLogo);

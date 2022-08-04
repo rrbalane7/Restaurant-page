@@ -12,9 +12,9 @@ function createContact(){
     const contactList = document.createElement("ul");
     contactList.classList.add("contact-list");
 
-    contactList.appendChild(createContactItem("/media/smartphone-svgrepo-com.svg","+63-279590951"));
-    contactList.appendChild(createContactItem("/media/phone-svgrepo-com.svg","006-795-027"));
-    contactList.appendChild(createContactItem("/media/email-svgrepo-com.svg","fancyram@hotmail.com"));
+    contactList.appendChild(createContactItem("smartphone-svgrepo-com.svg","+63-279590951"));
+    contactList.appendChild(createContactItem("phone-svgrepo-com.svg","006-795-027"));
+    contactList.appendChild(createContactItem("email-svgrepo-com.svg","fancyram@hotmail.com"));
 
     contactInfoCont.appendChild(contactHeader);
     contactInfoCont.appendChild(contactList)

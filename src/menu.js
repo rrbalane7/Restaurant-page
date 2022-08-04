@@ -11,10 +11,10 @@ function createMenu(){
     const galleryCont = document.createElement("ul");
     galleryCont.classList.add("menu-list")
 
-    galleryCont.appendChild(createFoodItem("/media/Grilled Chicken Sandwich.jpg","Grilled Chicken Sandwich","$20"));
-    galleryCont.appendChild(createFoodItem("/media/grilled ham and cheese sandwich.jpg","Grilled Ham & Cheese","$12"));
-    galleryCont.appendChild(createFoodItem("/media/Tuna Sandwich.jpg","Tuna Sandwich","$15"));
-    galleryCont.appendChild(createFoodItem("/media/Grilled PB&J.jpg","Grilled Peanut Butter & Jelly Sandwich","$15"));
+    galleryCont.appendChild(createFoodItem("Grilled Chicken Sandwich.jpg","Grilled Chicken Sandwich","$20"));
+    galleryCont.appendChild(createFoodItem("grilled ham and cheese sandwich.jpg","Grilled Ham & Cheese","$12"));
+    galleryCont.appendChild(createFoodItem("Tuna Sandwich.jpg","Tuna Sandwich","$15"));
+    galleryCont.appendChild(createFoodItem("Grilled PB&J.jpg","Grilled Peanut Butter & Jelly Sandwich","$15"));
 
     container.appendChild(menuTitleCont)
     container.appendChild(galleryCont);
