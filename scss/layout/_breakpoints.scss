@@ -1,0 +1,146 @@
+@media (max-width:1000px){
+    li > a {
+        font-size: 1.3rem;    
+    }
+
+    .center-cont{
+        width: 70%;
+        height: auto;
+    }
+
+    .brand-name-logo > h1 {
+        font-size: 2rem;
+    }
+    
+    .brand-name-logo > img{
+        height: 150px;
+    }
+        
+    .resto-info,
+    .store-schedule,
+    .address-info{
+        padding: 1em 1.2em;
+    }
+
+    .resto-info > h1,
+    .store-schedule > h1,
+    .address-info > h1{
+        font-size: 1.5rem;
+
+    }
+        
+    div > p {
+        font-size: 1.2rem;
+    }
+
+    .menu-title-cont > h1 {
+        font-size: 1.6rem
+    }
+
+    .menu-list{
+        padding-left: 0;
+    }
+
+    .food-img{
+        width:52%;
+        height: 35%;
+
+    }
+
+    .food-item-cont > *{
+
+        font-size:1rem;
+    }
+
+    .contact-icon{
+        width:45px;
+    
+    }
+    
+    .contact-item > p {
+        font-size:1.2rem;
+    }
+
+    .contact-header{
+        font-size: 1.3rem;
+
+    }
+    
+}
+
+@media (max-width:640px){
+    li > a {
+        font-size: 1rem;   
+    }
+
+    .brand-name-logo{
+        padding:1em 0em;
+    }
+
+    .brand-name-logo > h1 {
+        font-size: 1.2rem;
+    }
+    
+    .brand-name-logo > img{
+        height: 80px;
+        margin-left: 1.2em;
+
+    }
+       
+    .resto-info,
+    .store-schedule,
+    .address-info{
+        padding: 1em 1.5em;
+    }
+    
+    .resto-info > h1,
+    .store-schedule > h1,
+    .address-info > h1{
+        font-size: 1.11rem;
+
+    }
+        
+    div > p {
+        font-size: 1rem;
+    }
+
+    .menu-title-cont > h1 {
+        font-size: 1.2rem
+    }
+
+    .food-img{
+        width:175px;
+        height: 117px;
+
+    }
+
+    .food-item-cont > *{
+
+        font-size:0.9rem;
+    }
+
+    .contact-list{
+        padding-left: 2.5em;
+    }
+
+    .contact-icon{
+        width:35px;
+    
+    }
+    
+    .contact-item > p {
+        font-size: 1rem;
+    }
+
+    .contact-header{
+        font-size: 1.2rem;
+
+    }
+
+    footer{
+        width:20em;
+     
+    }
+    
+    
+}

@@ -1,0 +1,144 @@
+@use "../globals/colors";
+@use "../globals/fonts" as f;
+
+.center-cont{
+    width: 55em;
+    min-width:20em;
+    height: max-content;
+    background-color: var(--content-bg-color);
+    margin: 3em auto;
+    padding:2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    user-select: none;
+    box-shadow: var(--box-shadow-color) 2px 1px 6px 5px;
+}
+
+
+// Home Page
+.brand-name-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2em 10em;
+
+}
+
+.brand-name-logo > h1 {
+    font-size: 3rem;
+    font-style: italic;
+    font-family: f.$brand-font;
+    letter-spacing: 0.02em;
+    margin: 0.2em 0 0 0.5em;
+}
+
+.brand-name-logo > img{
+    width:8em;
+}
+
+.brand-name-logo > * {
+    margin-left: 1em;
+}
+
+.resto-info,
+.store-schedule,
+.address-info{
+    padding: 1.5em 3em;
+}
+
+.resto-info > h1,
+.store-schedule > *,
+.address-info > *{
+    text-align: center;
+}
+
+.resto-info > p {
+    font-style: italic;
+    
+}
+
+div > p {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.brand-name-logo,
+.resto-info,
+.store-schedule,
+.address-info{
+    margin-bottom: 2em;
+    box-shadow: var(--border-color) 1px 3px;
+    width:100%;
+    border-radius: 20px;
+    background-color: var(--body-bg-color);
+}
+
+
+// Menu Page
+.menu-title-cont{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.menu-title-cont > h1 {
+    letter-spacing: 0.2em;
+    font-size: 2.5rem;
+    font-family: f.$menu-header-font;
+}
+
+.food-img{
+    width:400px;
+    height: 270px;
+}
+
+.menu-list{
+    list-style: none;
+}
+
+.menu-list > li {
+    display: flex; 
+    align-items: center;
+    padding-bottom: 4em;
+}
+
+.food-item-cont{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5em;
+}
+
+// Contact Page
+
+.contact-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5em;
+}
+
+.contact-item{
+    display: flex;
+    margin-top: 1em;
+
+}
+
+
+.contact-icon{
+    width:50px;
+    margin-right: 1.7em;
+
+}
+
+.contact-item > p {
+    padding-top: 1em;
+    font-size:1.5rem;
+}
+
+
+
+
+
+
+
